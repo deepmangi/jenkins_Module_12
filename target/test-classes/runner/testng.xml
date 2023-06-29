@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="com.Module_11.extentlisteners.ExtentListeners"></listener>
+	</listeners>
+  <test thread-count="5" parallel="tests" name="Test">
+    <classes>
+      <class name="com.Module_11.base.BaseTest"/>
+      <class name="com.Module_11.testcases.TC_001_ManagerLogin"/>
+      <class name="com.Module_11.testcases.TC_002_AddCustomer"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

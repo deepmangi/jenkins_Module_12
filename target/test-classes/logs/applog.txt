@@ -1,0 +1,2 @@
+INFO    2023-06-29 10:14:37,142 [main] com.Module_11.testcases.TC_001_ManagerLogin  - Test Execution started !!!
+INFO    2023-06-29 10:14:37,151 [main] com.Module_11.testcases.TC_001_ManagerLogin  - OR Properties file loaded.

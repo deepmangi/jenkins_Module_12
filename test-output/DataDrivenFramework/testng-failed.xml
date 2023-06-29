@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DataDrivenFramework]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Module_12.extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="com.Module_12.testcases.TC_001">
+        <methods>
+          <include name="quitPlaywright"/>
+          <include name="setUp"/>
+          <include name="quit"/>
+          <include name="doLogin"/>
+        </methods>
+      </class> <!-- com.Module_12.testcases.TC_001 -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [DataDrivenFramework] -->
